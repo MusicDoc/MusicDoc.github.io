@@ -1,14 +1,14 @@
-=MusicDoc
+# MusicDoc
 
 MusicDoc is a simple but powerful markup format for musical scores and partitures.
-It is inspired by https://asciidoc.org/[AsciiDoc] and https://www.chordpro.org/[ChordPro].
+It is inspired by [AsciiDoc](https://asciidoc.org/) and [ChordPro](https://www.chordpro.org/).
 
 The key principle of MusicDoc is simplicity!
 Just write your lyrics and add some simple notation markup for chords, notes, bars, breaks, etc.
 
-This makes MusicDoc different from musical formats such as https://www.musicxml.com/[MusicXML] and even https://en.wikipedia.org/wiki/ABC_notation[ABC notation].
+This makes MusicDoc different from musical formats such as [MusicXML](https://www.musicxml.com/) and even [ABC notation](https://en.wikipedia.org/wiki/ABC_notation).
 
-==Examples
+## Examples
 
 With regular ChordPro you can simply annotate lyrics with chords like this:
 
