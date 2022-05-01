@@ -87,3 +87,12 @@ Therefore `/2` will by default give you an eighth note and `/4` a semiquaver not
 
 These two approaches can also be combined so `c3/2` will give you a pitch of `c` lasting three times of the half of a quarter note so technically it is a punctuated quarter note. Unlike in ABC notation you can also write `c.` for this in MusicDoc.
 Also you can simply create tripplets so `c2/3 d2/3 e2/3` will give you a tripplet of the pitches `c d e` that each have the same value and last a half note in total.
+
+## MusicDoc Library
+
+In our [MusicDoc](https://github.com/MusicDoc/MusicDoc) repository you can find a library written in Java capable of reading (parsing) and writing an entire paritutre from MusicDoc to a structured Java object representation. It also allows complex musical operations such as proper transposing of the score.
+Further you can also read other formats to import and convert to MusicDoc.
+
+## MusicDocApp
+
+In our [MusicDocApp](https://github.com/MusicDoc/MusicDocApp) repository you can find an android application based on the above library to organize and manage your entire collection of paritures in MusicDoc and play a song your your choice with auto-scrolling.
