@@ -52,7 +52,7 @@ As you can see the notation is very easy to read and write.
 Capitalized pitches are in octave 1 (`C = c1`) and lower casee pitches are in octave 2 (`c = c2`).
 Please also note that you can use any obvious enharmonic change or alternative notation:
 
-* `C#` can also be written as `Cis` and has enharmonic change like `Db` (`Des`)
+* `C#` can also be written as `Cis` (or `CIS`) and has enharmonic change like `Db` (`Des`)
 * `B` can also be written as `B♮` or `H` (German notation) and has enharmonic change like `Cb` (`Ces`).
 
 Please note that pitches are always written absolute and only the rendering decides about accidental signs according to the key of your stave.
