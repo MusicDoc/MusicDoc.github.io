@@ -1,14 +1,14 @@
-# MusicDoc
+# MusicDoc# MusicDoc
 
 MusicDoc is a simple but powerful markup format for musical scores and partitures.
-It is inspired by https://www.chordpro.org/[ChordPro], https://en.wikipedia.org/wiki/ABC_notation[ABC notation], and https://asciidoc.org/[AsciiDoc].
+It is inspired by [ChordPro](https://www.chordpro.org/), [ABC notation](https://en.wikipedia.org/wiki/ABC_notation), and [AsciiDoc](https://asciidoc.org/).
 
 The key principle of MusicDoc is simplicity!
 Just write your lyrics and add some simple notation markup for chords, notes, bars, breaks, etc.
 
 This makes MusicDoc different from musical formats such as [MusicXML](https://www.musicxml.com/).
-Further, it extends https://www.chordpro.org/[ChordPro] followin the concept of _lyrics first_.
-This makes it different from https://en.wikipedia.org/wiki/ABC_notation[ABC notation] so if you (mainly) want to write instrumental music without lyrics you should prefer ABC instead of MusicDoc.
+Further, it extends [ChordPro](https://www.chordpro.org/) followin the concept of _lyrics first_.
+This makes it different from [ABC notation](https://en.wikipedia.org/wiki/ABC_notation) so if you (mainly) want to write instrumental music without lyrics you should prefer ABC instead of MusicDoc.
 
 ## Chords
 
@@ -98,4 +98,4 @@ Further you can also read other formats to import and convert to MusicDoc.
 
 ## MusicDocApp
 
-In our [MusicDocApp](https://github.com/MusicDoc/MusicDocApp) repository you can find an android application based on the above library to organize and manage your entire collection of paritures in MusicDoc and play a song your your choice with auto-scrolling.
+In our [MusicDocApp](https://github.com/MusicDoc/MusicDocApp) repository you can find an android application based on the above library to organize and manage your entire collection of paritures in MusicDoc and play a song of your choice with auto-scrolling, optional midi sound and much more.
