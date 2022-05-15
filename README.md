@@ -34,7 +34,7 @@ Actually the format with chords on top of lyrics is used by [OpenSong format](ht
 Now if we want to add a stave with the melody we can additionally annotate the notes in curly braces:
 
 ```
-{A}A|{c2}l[Am]as {d}my |{e.}l[C]ov-e {f/2}yo-{e}u |{d2}d[G]o {B}me |{G.}w[Em]rong {A/2}to {B]cast|]
+{A}A|{c2}l[Am]as {d}my |{e.}l[C]ov-e {f/2}yo-{e}u |{d2}d[G]o {B}me |{G.}w[Em]rong {A/2}to {B}cast|]
 ```
 
 The result may be rendered as following:
