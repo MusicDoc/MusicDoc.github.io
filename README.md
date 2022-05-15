@@ -7,7 +7,7 @@ The key principle of MusicDoc is simplicity!
 Just write your lyrics and add some simple notation markup for chords, notes, bars, breaks, etc.
 
 This makes MusicDoc different from musical formats such as [MusicXML](https://www.musicxml.com/).
-Further, it extends [ChordPro](https://www.chordpro.org/) followin the concept of _lyrics first_.
+Further, it extends [ChordPro](https://www.chordpro.org/) following the concept of _lyrics first_.
 This makes it different from [ABC notation](https://en.wikipedia.org/wiki/ABC_notation) so if you (mainly) want to write instrumental music without lyrics you should prefer ABC instead of MusicDoc.
 
 ## Chords
