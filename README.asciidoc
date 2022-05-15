@@ -1,12 +1,14 @@
 # MusicDoc
 
 MusicDoc is a simple but powerful markup format for musical scores and partitures.
-It is inspired by [ChordPro](https://www.chordpro.org/), [ABC notation](https://en.wikipedia.org/wiki/ABC_notation), and [AsciiDoc](https://asciidoc.org/).
+It is inspired by https://www.chordpro.org/[ChordPro], https://en.wikipedia.org/wiki/ABC_notation[ABC notation], and https://asciidoc.org/[AsciiDoc].
 
 The key principle of MusicDoc is simplicity!
 Just write your lyrics and add some simple notation markup for chords, notes, bars, breaks, etc.
 
 This makes MusicDoc different from musical formats such as [MusicXML](https://www.musicxml.com/).
+Further, it extends https://www.chordpro.org/[ChordPro] followin the concept of _lyrics first_.
+This makes it different from https://en.wikipedia.org/wiki/ABC_notation[ABC notation] so if you (mainly) want to write instrumental music without lyrics you should prefer ABC instead of MusicDoc.
 
 ## Chords
 
@@ -25,6 +27,7 @@ A|las my |love you |do me |wrong to cast|
 
 The great benefit of this notation is its simplicity: 
 You can wrap and break the line anywhere in the text whereas in the "rendered" text manual wrapping would be much more tedious.
+Actually the format with chords on top of lyrics is used by http://www.opensong.org/home/getting-started[OpenSong format] and has serious disadvantages compared to ChordPro.
 
 ## Staves
 
