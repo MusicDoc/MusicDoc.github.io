@@ -27,7 +27,7 @@ A|las my |love you |do me |wrong to cast|
 
 The great benefit of this notation is its simplicity: 
 You can wrap and break the line anywhere in the text whereas in the "rendered" text manual wrapping would be much more tedious.
-Actually the format with chords on top of lyrics is used by http://www.opensong.org/home/getting-started[OpenSong format] and has serious disadvantages compared to ChordPro.
+Actually the format with chords on top of lyrics is used by [OpenSong format](http://www.opensong.org/home/getting-started) and has serious disadvantages compared to ChordPro.
 
 ## Staves
 
