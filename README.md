@@ -1,6 +1,3 @@
----
-image: logo.svg
----
 # MusicDoc
 
 MusicDoc is a simple but powerful markup format for musical scores and partitures.
