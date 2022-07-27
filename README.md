@@ -1,6 +1,6 @@
 # MusicDoc
 
-MusicDoc is a simple but powerful markup format for musical scores and partitures.
+MusicDoc is a simple but powerful markup format for songs with musical scores.
 It is inspired by [ChordPro](https://www.chordpro.org/), [ABC notation](https://en.wikipedia.org/wiki/ABC_notation), and [AsciiDoc](https://asciidoc.org/).
 
 The key principle of MusicDoc is simplicity!
@@ -18,7 +18,7 @@ With regular ChordPro you can simply annotate lyrics with chords like this:
 A|l[Am]as my |l[C]ove you |d[G]o me |w[Em]rong to cast|
 ```
 
-The result may be rendered as following:
+The result may be rendered as follows:
 
 ```
  | Am    | C       | G    | Em          |
@@ -55,11 +55,11 @@ As you can see the notation is very easy to read and write.
 Capitalized pitches are in octave 1 (`C = c1`) and lower casee pitches are in octave 2 (`c = c2`).
 Please also note that you can use any obvious enharmonic change or alternative notation:
 
-* `C#` can also be written as `Cis` (or `CIS`) and has enharmonic change like `Db` (`Des`)
-* `B` can also be written as `B♮` or `H` (German notation) and has enharmonic change like `Cb` (`Ces`).
+* `C#` can also be written as `Cis` (or `CIS`) and can be enharmonically changed to `Db` (`Des`)
+* `B` can also be written as `B♮` or `H` (German notation) and can be enharmonically changed to `Cb` (`Ces`).
 
-Please note that pitches are always written absolute and only the rendering decides about accidental signs according to the key of your stave.
-Therefore `C#` will be rendered different from `Db` but writing `C#` does not say or enforce that a sharp sign is rendered in front of the note.
+Please note that pitches are always written as absolute; the rendering determines which accidental sign to use according to the key of your staves.
+Therefore `C#` will be rendered differently from `Db`, but writing `C#` does not enforce that a sharp sign is rendered in front of the note.
 Music is complex and MusicDoc wants to make your life simple so you do not need to worry where to put accidental signs.
 However, in case you need to enforce accidental signs, you can do so following ABC conventions:
 
@@ -88,7 +88,8 @@ In order to decrease the value you can devide the value by appending a slahs (`/
 This will divide the value by the number. For convenience a `/2` can simply be written as `/` (omitting the `2`).
 Therefore `/2` will by default give you an eighth note and `/4` a semiquaver note.
 
-These two approaches can also be combined so `c3/2` will give you a pitch of `c` lasting three times of the half of a quarter note so technically it is a punctuated quarter note. Unlike in ABC notation you can also write `c.` for this in MusicDoc.
+These two approaches can also be combined so `c3/2` will give you a pitch of `c` lasting three times of the half of a quarter note so technically it is a dotted quarter note.
+Unlike in ABC notation you can also write `c.` for this in MusicDoc.
 Also you can simply create tripplets so `c2/3 d2/3 e2/3` will give you a tripplet of the pitches `c d e` that each have the same value and last a half note in total.
 
 ## MusicDoc Library
@@ -98,4 +99,4 @@ Further you can also read other formats to import and convert to MusicDoc.
 
 ## MusicDocApp
 
-In our [MusicDocApp](https://github.com/MusicDoc/MusicDocApp) repository you can find an android application based on the above library to organize and manage your entire collection of paritures in MusicDoc and play a song of your choice with auto-scrolling, optional midi sound and much more.
+In our [MusicDocApp](https://github.com/MusicDoc/MusicDocApp) repository you can find an android application based on the above library to organize and manage your entire collection of scores in MusicDoc and play a song of your choice with auto-scrolling, optional midi sound and much more.
