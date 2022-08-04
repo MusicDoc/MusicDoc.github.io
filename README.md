@@ -8,7 +8,7 @@ Just write your lyrics and add some simple notation markup for chords, notes, ba
 
 This makes MusicDoc different from musical formats such as [MusicXML](https://www.musicxml.com/).
 Further, it extends [ChordPro](https://www.chordpro.org/) following the concept of _lyrics first_.
-This makes it different from [ABC notation](https://en.wikipedia.org/wiki/ABC_notation) so if you (mainly) want to write instrumental music without lyrics you should prefer ABC instead of MusicDoc.
+This makes it different from [ABC notation](https://en.wikipedia.org/wiki/ABC_notation) so if you (mainly) want to write instrumental music without lyrics you may prefer ABC instead of MusicDoc.
 
 ## Chords
 
@@ -43,7 +43,7 @@ The result may be rendered as following:
 
 ## Note Pitch
 
-Notes are annoated in curly braces. The pitch is specified as simple Ascii notation like in ABC:
+Notes are annoated in curly braces. The pitch is specified as simple Ascii notation similar to ABC:
 
 ```
 C C# D D# E F F# G G# A Bb B c d e f
@@ -52,7 +52,7 @@ C C# D D# E F F# G G# A Bb B c d e f
 ![Chromatic scale](img/chromatic-scale.png)
 
 As you can see the notation is very easy to read and write.
-Capitalized pitches are in octave 1 (`C = c1`) and lower casee pitches are in octave 2 (`c = c2`).
+Capitalized pitches are in lower octave (`C = c4` for treble clef) and lower casee pitches are in higher octave (`c = c5` in treble clef).
 Please also note that you can use any obvious enharmonic change or alternative notation:
 
 * `C#` can also be written as `Cis` (or `CIS`) and can be enharmonically changed to `Db` (`Des`)
@@ -60,6 +60,7 @@ Please also note that you can use any obvious enharmonic change or alternative n
 
 Please note that pitches are always written as absolute; the rendering determines which accidental sign to use according to the key of your staves.
 Therefore `C#` will be rendered differently from `Db`, but writing `C#` does not enforce that a sharp sign is rendered in front of the note.
+So unlike ABC you do not need to know about the key or the context of previous accidental signs and reading pitches and tones in the plain text becomes much easier.
 Music is complex and MusicDoc wants to make your life simple so you do not need to worry where to put accidental signs.
 However, in case you need to enforce accidental signs, you can do so following ABC conventions:
 
