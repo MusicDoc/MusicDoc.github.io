@@ -32,6 +32,7 @@ Non textual/markup music formats are:
 * [Lomse](https://github.com/lenmus/lomse) - OSS C++ library for rendering music scores
 * [Lenmus](www.lenmus.org) - app for music students
 * [Lilypond](http://lilypond.org/) - OSS score renderer
+* [MusiXTeX](https://ctan.org/pkg/musixtex) - OSS extension for TeX to render music scores
 * [Standard Music Font Layout (SMuFL)](https://w3c.github.io/smufl/latest/index.html) - Standard for music fonts using reserved unicode characters
 * [EsAC software](http://esac-data.org/software/) - MS-DOS processing of EsAC data
 * [SeeScore](https://www.seescore.co.uk/) - commecial library to embed music rendering into you mobile app and more
