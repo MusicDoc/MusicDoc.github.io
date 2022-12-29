@@ -1,6 +1,6 @@
 # Links
 
-Here you can find links to other music formats and projects.
+Here you can find links to other music formats and projects as alternative to [MusicDoc](index.html).
 
 ## Other music formats
 
