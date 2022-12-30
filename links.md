@@ -9,7 +9,7 @@ Other textual markup formats for music are:
 * [ABC notation](https://en.wikipedia.org/wiki/ABC_notation)
 * [Plaine & Easie Code](https://www.iaml.info/plaine-easie-code)
 * [Guido Music Notation (GMN)](https://guidodoc.grame.fr/)
-* [LPD (Lenguaje de Descripcion de Partituras)](https://lenmus.github.io/ldp/)
+* [LDP (Lenguaje de Descripcion de Partituras)](https://lenmus.github.io/ldp/)
 * [Lilypond](http://lilypond.org/)
 * [ChordPro](https://www.chordpro.org/)
 * [OpenSong format](http://www.opensong.org/home/getting-started)
@@ -30,7 +30,7 @@ Non textual/markup music formats are:
 * [Verovio](https://www.verovio.org/index.xhtml) - OSS [C++ library](https://github.com/rism-digital/verovio) to render MEI to SVG
 * [Humdrum](https://www.humdrum.org/) - OSS project around **kern format with lots of free sheet music and C++/JS/Python libraries to parse and render
 * [Lomse](https://github.com/lenmus/lomse) - OSS C++ library for rendering music scores
-* [Lenmus](www.lenmus.org) - app for music students
+* [Lenmus](http://www.lenmus.org) - app for music students
 * [Lilypond](http://lilypond.org/) - OSS score renderer
 * [MusiXTeX](https://ctan.org/pkg/musixtex) - OSS extension for TeX to render music scores
 * [Standard Music Font Layout (SMuFL)](https://w3c.github.io/smufl/latest/index.html) - Standard for music fonts using reserved unicode characters
