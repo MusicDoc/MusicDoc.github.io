@@ -52,7 +52,7 @@ C C# D D# E F F# G G# A Bb B c d e f
 ![Chromatic scale](img/chromatic-scale.png)
 
 As you can see the notation is very easy to read and write.
-Capitalized pitches are in lower octave (`C = c4` for treble clef) and lower casee pitches are in higher octave (`c = c5` in treble clef).
+Capitalized pitches are in lower octave (`C = c4` for treble clef) and lower case pitches are in higher octave (`c = c5` in treble clef).
 Please also note that you can use any obvious enharmonic change or alternative notation:
 
 * `C#` can also be written as `Cis` (or `CIS`) and can be enharmonically changed to `Db` (`Des`)
